@@ -1,0 +1,67 @@
+<html>
+      <head><title>My Personal Website</title>
+      </head>
+<center><script>
+function startTime() {
+  var today = new Date();
+  var h = today.getHours();
+  var m = today.getMinutes();
+  var s = today.getSeconds();
+  m = checkTime(m);
+  s = checkTime(s);
+  document.getElementById('txt').innerHTML =
+  h + ":" + m + ":" + s;
+  var t = setTimeout(startTime, 500);
+}
+function checkTime(i) {
+  if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+  return i;
+}
+</script>
+</head>
+
+<body onload="startTime()">
+
+<div id="txt"></div></center>
+<br>
+<center>
+<body>
+
+      <body bgcolor="darksalmon">
+      <h1><p style="color:purple"><font face = "Brush Script MT" font size = "72">Hidayah's Universe</font></h1>
+      <hr>
+      <font size="6"><a href="home.html">Home</a> | <a href="about me.html">About Me</a>| <a href="family.html">My Family</a> | <a href="education.html">Education</a> | <a href="photovideo.html">Photo & Video Land</a> | <a href="experience.html">Experience</a> | <a href="my things.html">My Things</a> | <a href="others.html">Others</a> | <a href="contact.html">Contact</a></font>
+      <hr>
+      <p style="color:white"><font size="6"><marquee><h4>WELCOME. I’M HIDAYAH. This is my Web Universe, Hope You Like It!</font></4></marquee> 
+      <img src="images/welcome.jpg">
+<br>
+<br>
+      <img src="images/rose.jpg" width="300px" height="180px">
+      <img src="images/rose.jpg" width="300px" height="180px">
+      <img src="images/rose.jpg" width="300px" height="180px">
+      <img src="images/rose.jpg" width="300px" height="180px">
+      <img src="images/rose.jpg" width="300px" height="180px">
+      <img src="images/rose.jpg" width="300px" height="180px">
+      <img src="images/rose.jpg" width="300px" height="180px">
+      <img src="images/rose.jpg" width="300px" height="180px">
+<br>
+<br>
+       <center> I always here If you need someone to talk.</center>
+<br>
+<br>
+<img src="images/baby.gif">
+<br>
+<br>
+<audio controls autoplay>
+  <source src="audio/bts.ogg" type="audio/ogg">
+  <source src="audio/bts.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+<br>
+<br>
+      <hr>
+      Copyright © copy 2020 All Right Reserved: Hidayah's Universe
+      <hr>
+</body>
+</center>
+</html>
